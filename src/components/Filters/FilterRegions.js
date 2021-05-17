@@ -1,0 +1,27 @@
+function FilterRegions() {
+
+    return (
+        <div className="app_filter mt-5">
+        <div className="row">
+            <div className="col-md-12">
+              <h4 className="font-weight-bold">Regions</h4>
+            </div>
+            <div className="col-md-12 mt-3">
+              <div className="form-group has-filter">
+                  <span className="fa fa-search form-control-feedback-filter"></span>
+                  <input type="text" className="form-control filter" placeholder="Search regions"/>
+                  <hr style={{marginTop: '0'}} />
+              </div>
+              <button type="button" className="btn btn-outline-danger btn-round mr-2">Bordeaux</button>
+              <button type="button" className="btn btn-outline-danger btn-round mr-2">Bourgogne</button>
+              <button type="button" className="btn btn-outline-danger btn-round mr-2">Napa Valley</button>
+              <button type="button" className="btn btn-outline-danger btn-round mt-2 mr-2">Piemonte</button>
+              <button type="button" className="btn btn-outline-danger btn-round mt-2 mr-2">Rhone Valley</button>
+              <button type="button" className="btn btn-outline-danger btn-round mt-2 mr-2">Toscana</button>
+            </div>
+        </div>
+     </div>
+    );
+}
+
+export default FilterRegions;
